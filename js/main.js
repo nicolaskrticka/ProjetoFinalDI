@@ -1,7 +1,7 @@
-// 1) Proteção: sem login, volta para a tela de login
+//sem login, volta para a tela de login
 if (sessionStorage.getItem("logado") !== "sim") window.location.href = "login.html";
 
-// 2) Modo claro/escuro: o Bootstrap troca as cores pelo atributo data-bs-theme
+//Modo claro/escuro
 var html = document.documentElement;
 var btnTema = document.getElementById("btnTema");
 function aplicarTema(t) {
@@ -14,13 +14,13 @@ btnTema.addEventListener("click", function () {
   aplicarTema(html.getAttribute("data-bs-theme") === "dark" ? "light" : "dark");
 });
 
-// 3) Sair
+// botao de sair
 document.getElementById("btnSair").addEventListener("click", function () {
   sessionStorage.removeItem("logado");
   window.location.href = "login.html";
 });
 
-// 4) Formulário de contato (só mostra um aviso, não envia a lugar nenhum)
+//contato ( não envia a lugar nenhum)
 document.getElementById("formContato").addEventListener("submit", function (e) {
   e.preventDefault();
   alert("Obrigado, " + document.getElementById("nome").value + "! Mensagem recebida.");
