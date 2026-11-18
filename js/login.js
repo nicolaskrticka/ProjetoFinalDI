@@ -1,4 +1,3 @@
-// Login simulado (sem servidor): compara com um usuário fixo.
 document.getElementById("formLogin").addEventListener("submit", function (e) {
   e.preventDefault();                                   // impede o recarregamento da página
   var usuario = document.getElementById("usuario").value;
