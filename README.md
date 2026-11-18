@@ -24,6 +24,6 @@
 - Use um http server de preferencia , como o padrao do python , abra na porta de preferencia ( 8080 de padrao )
 
 # BASH
- # python3 -m http.server 8080
+ #       python3 -m http.server 8080
 # CMD / PowerShell
- # py -m http.server 8080
+ #       py -m http.server 8080
