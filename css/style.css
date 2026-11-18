@@ -1,4 +1,11 @@
-/* v1: só o que o Bootstrap não cobre */
-.btn-primary { background:#0B5C8A; border-color:#0B5C8A; }   /* azul com contraste 7:1 sobre branco */
-.btn-primary:hover { background:#084467; }
-a:focus, button:focus, input:focus, textarea:focus { outline:3px solid #F2A900 !important; } /* foco visível */
+
+.btn-primary { 
+  background:#0B5C8A; border-color:#0B5C8A;
+}
+.btn-primary:hover { 
+  background:#084467; 
+}
+
+a:focus, button:focus, input:focus, textarea:focus { 
+  outline:3px solid #F2A900 !important; 
+} 
