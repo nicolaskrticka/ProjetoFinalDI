@@ -19,7 +19,7 @@
 
 
 
-##Como abrir 
+## Como abrir 
 - Simplesmente acesse : https://nicolaskrticka.github.io/ProjetoFinalDI/index.html
 - Use um http server de preferencia , como o padrao do python , abra na porta de preferencia ( 8080 de padrao )
 
