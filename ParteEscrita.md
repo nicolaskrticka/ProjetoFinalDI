@@ -41,3 +41,8 @@ TODO - printar partes do site , e explicar , fazer um pdf com os prints , usar I
 
 
 # Parte C
+- TODO - fazer a redacao
+- TODO - adcionar explicacao de toda a contrucao do site no readme
+
+# Parte D
+Referencias ja citadas no readme
