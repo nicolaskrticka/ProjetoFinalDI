@@ -6,18 +6,13 @@
 - Site divido entre pagina principal e pagina de login
 
 
-## TODO
-- Adcionar mais protocolos ( fazer pagina para tcp , ip , udp , etc )
-- Melhorar estética
--
-
-
 ## Referencias
 - Cs50W
 - W3school
 - IA`s modernas ( claude , gemini ) - usadas para tirar duvidas e ajudar em algumas partes , principalmente JS
 
-
+## Como foi feito / Construcao
+- fazer
 
 ## Como abrir 
 - Simplesmente acesse : https://nicolaskrticka.github.io/ProjetoFinalDI/index.html
