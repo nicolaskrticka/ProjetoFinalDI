@@ -1,11 +1,11 @@
-// 1) Proteção: sem login volta para a tela de login
+// Proteção: sem login volta para a tela de login
 if (sessionStorage.getItem("logado") !== "sim") window.location.href = "login.html";
 document.getElementById("btnSair").onclick = function () {
   sessionStorage.removeItem("logado");
   window.location.href = "login.html";
 };
 
-// 2) Acessibilidade (tema, fonte, contraste). A escolha fica salva no localStorage.
+// Acessibilidade (tema, fonte, contraste). A escolha fica salva no localStorage.
 var html = document.documentElement;
 var tema = localStorage.getItem("tema") || "light";
 var fonte = Number(localStorage.getItem("fonte")) || 100;
@@ -26,7 +26,7 @@ document.getElementById("btnContraste").onclick = function () { contraste = !con
 document.getElementById("btnReset").onclick = function () { tema = "light"; fonte = 100; contraste = false; aplicar(); };
 aplicar();
 
-// 3) Cartões: mostra os itens de dados.js conforme a aba e o texto digitado
+// Cartões: mostra os itens de dados.js conforme a aba e o texto digitado
 var categoria = "Todos";
 function mostrar() {
   var termo = document.getElementById("busca").value.toLowerCase();
@@ -56,7 +56,7 @@ for (var i = 0; i < botoes.length; i++) {
 }
 mostrar();
 
-// 4) Formulário de contato: confere os campos antes de "enviar"
+// Formulário de contato: confere os campos antes de "enviar"
 document.getElementById("formContato").addEventListener("submit", function (e) {
   e.preventDefault();
   var nome = document.getElementById("nome").value.trim();
