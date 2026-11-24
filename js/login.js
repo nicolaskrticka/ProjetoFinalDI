@@ -1,4 +1,4 @@
-// Login simulado (igual à v1): compara com um usuário fixo e guarda no sessionStorage.
+// Login 
 document.getElementById("formLogin").addEventListener("submit", function (e) {
   e.preventDefault();
   var usuario = document.getElementById("usuario").value.trim();
@@ -10,7 +10,7 @@ document.getElementById("formLogin").addEventListener("submit", function (e) {
     document.getElementById("erro").textContent = "Usuário ou senha incorretos.";
   }
 });
-// Botão "Ver": alterna o tipo do campo entre password e text
+// Botão Ver
 document.getElementById("ver").addEventListener("click", function () {
   var campo = document.getElementById("senha");
   campo.type = campo.type === "password" ? "text" : "password";
