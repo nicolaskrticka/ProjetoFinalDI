@@ -1,5 +1,3 @@
-// Conteúdo dos cartões. Para adicionar um conceito, basta acrescentar uma linha aqui.
-// Campos: t = título, cat = categoria, ic = emoji, txt = explicação, ex = exemplo/detalhe
 var conteudos = [
   { t:"HTTP", cat:"Protocolo", ic:"🌍", txt:"Protocolo da web. O navegador faz um pedido e o servidor devolve a página.", ex:"Porta 80" },
   { t:"HTTPS", cat:"Protocolo", ic:"🔒", txt:"HTTP com criptografia TLS. Protege senhas e dados contra espionagem.", ex:"Porta 443" },
