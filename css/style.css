@@ -1,4 +1,4 @@
-/* v2 – NetBásico. Paleta: azul-marinho (confiança), azul (tecnologia), verde-azulado (calma/equilíbrio), âmbar (destaque/ação). */
+/* v2 – NetBásico. Paleta: azul-marinho (confiança), azul (tecnologia), verde-azulado (calma/equilíbrio), alaranjado (destaque/ação). */
 :root { --marinho:#0B2545; --azul:#0B5C8A; --verde:#0E7C7B; --ambar:#F2A900; --bs-primary:#0B5C8A; --bs-primary-rgb:11,92,138; }
 [data-bs-theme=dark] { --bs-primary:#5CC8F2; --bs-primary-rgb:92,200,242; --bs-body-bg:#0D1B2A; --bs-body-color:#E8EEF4; --bs-tertiary-bg:#13283D; }
 body { font-family:"Segoe UI", system-ui, sans-serif; line-height:1.6; }
