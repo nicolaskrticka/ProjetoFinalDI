@@ -1,29 +1,129 @@
 /* v2 – NetBásico. Paleta: azul-marinho (confiança), azul (tecnologia), verde-azulado (calma/equilíbrio), alaranjado (destaque/ação). */
-:root { --marinho:#0B2545; --azul:#0B5C8A; --verde:#0E7C7B; --ambar:#F2A900; --bs-primary:#0B5C8A; --bs-primary-rgb:11,92,138; }
-[data-bs-theme=dark] { --bs-primary:#5CC8F2; --bs-primary-rgb:92,200,242; --bs-body-bg:#0D1B2A; --bs-body-color:#E8EEF4; --bs-tertiary-bg:#13283D; }
-body { font-family:"Segoe UI", system-ui, sans-serif; line-height:1.6; }
-.btn-primary { --bs-btn-bg:#0B5C8A; --bs-btn-border-color:#0B5C8A; --bs-btn-hover-bg:#084467; --bs-btn-hover-border-color:#084467; --bs-btn-color:#fff; }
-[data-bs-theme=dark] .btn-primary { --bs-btn-bg:#5CC8F2; --bs-btn-border-color:#5CC8F2; --bs-btn-color:#0D1B2A; --bs-btn-hover-bg:#8ADAF7; --bs-btn-hover-color:#0D1B2A; }
-.barra { background:var(--marinho); }
-.barra .nav-link, .barra .navbar-brand { color:#fff; }
-.barra .nav-link:hover { color:var(--ambar); }
-.hero { background:linear-gradient(135deg,#0B2545 0%,#0B5C8A 60%,#0E7C7B 100%); }
-.selo { display:inline-block; background:rgba(255,255,255,.15); padding:.3rem 1rem; border-radius:2rem; }
-.titulo { font-weight:700; margin-bottom:1rem; padding-left:.8rem; border-left:6px solid var(--ambar); }
-.cartao { border:0; border-radius:1rem; box-shadow:0 2px 10px rgba(0,0,0,.12); transition:transform .2s; }
-.cartao:hover { transform:translateY(-5px); }
-.emoji { font-size:2rem; }
-.etq { font-size:.8rem; padding:.25rem .6rem; border-radius:1rem; color:#fff; }
-.Protocolo { background:#0B5C8A; } .Cabo { background:#0B6E5F; } .Equipamento { background:#7A3B00; } .Topologia { background:#5B2A86; }
-.nav-pills .nav-link { margin:0 .4rem .4rem 0; border:1px solid var(--bs-primary); }
-.legenda { background:rgba(0,0,0,.7); border-radius:.6rem; }
-.rodape { background:var(--marinho); color:#fff; }
-.rodape a { color:var(--ambar); }
-.login-fundo { background:linear-gradient(135deg,#0B2545,#0E7C7B); }
-.pular { position:absolute; left:-999px; }
-.pular:focus { left:8px; top:8px; background:#fff; color:#000; padding:8px; z-index:3000; }
-:focus-visible { outline:3px solid var(--ambar) !important; outline-offset:2px; }
-body.alto-contraste, body.alto-contraste .card, body.alto-contraste .accordion-button, body.alto-contraste .table { background:#000 !important; color:#fff !important; }
-body.alto-contraste a { color:#FFD400; }
-body.alto-contraste .card, body.alto-contraste .btn { border:2px solid #fff; }
+:root { 
+  --marinho:#0B2545; 
+  --azul:#0B5C8A;
+  --verde:#0E7C7B; 
+  --ambar:#F2A900; 
+  --bs-primary:#0B5C8A; 
+  --bs-primary-rgb:11,92,138; 
+}
+[data-bs-theme=dark] 
+{ --bs-primary:#5CC8F2;
+ --bs-primary-rgb:92,200,242; 
+ --bs-body-bg:#0D1B2A; 
+ --bs-body-color:#E8EEF4; 
+ --bs-tertiary-bg:#13283D; 
+}
+body { 
+  font-family:"Segoe UI", system-ui, sans-serif; 
+  line-height:1.6; 
+}
+.btn-primary { 
+  --bs-btn-bg:#0B5C8A; 
+  --bs-btn-border-color:#0B5C8A; 
+  --bs-btn-hover-bg:#084467; 
+  --bs-btn-hover-border-color:#084467; 
+  --bs-btn-color:#fff; 
+}
+[data-bs-theme=dark] .btn-primary { 
+  --bs-btn-bg:#5CC8F2; 
+  --bs-btn-border-color:#5CC8F2; 
+  --bs-btn-color:#0D1B2A; 
+  --bs-btn-hover-bg:#8ADAF7; 
+  --bs-btn-hover-color:#0D1B2A; 
+}
+.barra { 
+  background:var(--marinho); 
+}
+.barra .nav-link, .barra .navbar-brand { 
+  color:#fff;
+}
+.barra .nav-link:hover { 
+  color:var(--ambar); 
+}
+.hero { 
+  background:linear-gradient(135deg,#0B2545 0%,#0B5C8A 60%,#0E7C7B 100%); 
+}
+.selo { 
+  display:inline-block; 
+  background:rgba(255,255,255,.15); 
+  padding:.3rem 1rem; 
+  border-radius:2rem; 
+}
+.titulo { 
+  font-weight:700; 
+  margin-bottom:1rem; 
+  padding-left:.8rem; 
+  border-left:6px solid var(--ambar); 
+}
+.cartao { 
+  border:0; 
+  border-radius:1rem; 
+  box-shadow:0 2px 10px rgba(0,0,0,.12); 
+  transition:transform .2s; 
+}
+.cartao:hover { 
+  transform:translateY(-5px); 
+}
+.emoji { 
+  font-size:2rem; 
+}
+.etq { 
+  font-size:.8rem; 
+  padding:.25rem .6rem; 
+  border-radius:1rem; 
+  color:#fff; 
+}
+.Protocolo { 
+  background:#0B5C8A; 
+} .Cabo { 
+  background:#0B6E5F; 
+} .Equipamento {
+  background:#7A3B00; 
+} .Topologia { 
+  background:#5B2A86; 
+}
+.nav-pills .nav-link {
+  margin:0 .4rem .4rem 0;
+  border:1px solid var(--bs-primary); 
+}
+.legenda { 
+  background:rgba(0,0,0,.7); 
+  border-radius:.6rem;
+}
+.rodape {
+  background:var(--marinho); 
+  color:#fff; 
+}
+.rodape a { 
+  color:var(--ambar); 
+}
+.login-fundo {
+  background:linear-gradient(135deg,#0B2545,#0E7C7B);
+}
+.pular { 
+  position:absolute; left:-999px;
+}
+.pular:focus { 
+  left:8px; 
+  top:8px;
+  background:#fff; 
+  color:#000; 
+  padding:8px; 
+  z-index:3000; 
+}
+:focus-visible { 
+  outline:3px solid var(--ambar) !important;
+  outline-offset:2px; 
+}
+body.alto-contraste, body.alto-contraste .card, body.alto-contraste .accordion-button, body.alto-contraste .table { 
+  background:#000 !important; 
+  color:#fff !important; 
+}
+body.alto-contraste a { 
+  color:#FFD400; 
+}
+body.alto-contraste .card, body.alto-contraste .btn { 
+  border:2px solid #fff; 
+}
 @media (prefers-reduced-motion:reduce) { * { transition:none !important; } }
