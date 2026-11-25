@@ -37,7 +37,7 @@ laboratorio de estudo. Pode ser usado como barreira de entrada para estudantes d
 - Opcoes de Acessibilidade ( modo escuro , contraste , aumentar fonte )
 
 ## Prints 
-TODO - printar partes do site , e explicar , fazer um pdf com os prints , usar ILOVEPDF , ou pedir para IA com os prints tirados
+Anexado junto com os outros envios
 
 
 # Parte C
